@@ -1,0 +1,39 @@
+Quick peek at results (from the new run)
+
+Examples from the parsed table (first 2 MiB per file analyzed):
+
+1KB-0xFF.bin → entropy ≈ 1.02 bits/byte, IC ≈ 0.498, chi-square huge → classic “ordered” control.
+
+1KB-DEADBEEF.bin → entropy ≈ 2.10, still very non-uniform.
+
+1KB-cheesy.bin → entropy ≈ 5.33, leaks structure as expected.
+
+1KB-paper_aes_ecb.bin → entropy ≈ 7.67, IC ≈ 0.00397, chi-square ≈ 266 → strong cipher cluster.
+
+500KB-0xFF.bin → entropy ≈ 1.00, IC ≈ 0.5000, chi-square enormous → ordered.
+
+You’ll see the same clustering pattern across the whole set in the big summary plots inside the zip:
+
+_entropy_by_file.png
+
+_chi_by_file.png (log scale)
+
+_ic_by_file.png
+
+_entropy_vs_chi.png
+
+What’s included per file
+
+For each .bin in test_dataset/:
+
+NAME__hist.png — byte-value histogram (first 2 MiB)
+
+NAME__raster.png — 2D byte raster (width 512) for visual periodicity
+
+That gives you immediate “by-eye” comparisons between controls, weak schemes (Caesar/XOR/SHIFT_MIX/flawed RNG), strong AES/DES modes, and your CA outputs.
+
+If you want more
+
+I can add rule-specific sections to the paper (30/110/150) with side-by-side panels of histogram + raster + annotated entropy/chi/IC for each, plus a short interpretation under each figure.
+
+If there are additional SIMD runs (bigger than 2 MiB chunks) you want reflected, tell me which files to treat as full-scan (I defaulted to the first 2 MiB for speed/consistent plotting).

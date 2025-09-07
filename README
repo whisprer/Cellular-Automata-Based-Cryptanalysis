@@ -148,3 +148,50 @@ Digital forensics (with appropriate authorization)
 NOT intended for unauthorized cryptanalysis or illegal activities.
 Contact & Support
 For questions, bug reports, or collaboration opportunities, please open an issue on the project repository.
+
+
+#######
+
+postscript:
+
+New Features:
+1. Flexible Rule Selection
+
+-r 30,110,150 - Test specific rules
+-R 0,255 - Test a range of rules
+--test-all-rules - Test all 256 elementary CA rules
+-A or --amphichiral - Test only amphichiral (mirror-symmetric) rules
+
+2. Amphichiral Rule Detection
+The code now includes a function to identify amphichiral rules - those that are identical to their mirror reflection. These rules often have interesting symmetry properties.
+3. Rule Effectiveness Analysis
+When testing multiple rules, the tool now:
+
+Calculates how much each rule changes the statistical properties
+Ranks rules by their pattern detection effectiveness
+Shows the top 10 most effective rules
+Provides a total score based on IoC, Chi-square, and entropy changes
+
+4. Performance Optimizations for Bulk Testing
+
+Streamlined output for testing many rules (progress indicator instead of full output)
+NIST tests only run in verbose mode when testing many rules
+File saving limited to small rule sets to avoid disk overflow
+
+Usage Examples:
+bash# Test all amphichiral rules
+./caca -f encrypted.bin -A --test-all-rules
+
+# Test rules 0-50
+./caca -f data.bin -R 0,50
+
+# Test specific interesting rules
+./caca -f file.bin -r 30,45,73,105,110,150
+
+# Test all 256 rules with verbose output
+./caca -f encrypted.bin --test-all-rules -v
+
+# Test amphichiral rules in range 100-200
+./caca -f data.bin -R 100,200 -A
+The amphichiral rules are particularly interesting because they have mirror symmetry - they treat left-right patterns the same way. Some notable amphichiral rules include: 0, 15, 51, 60, 90, 102, 105, 150, 153, 165, 195, 204, 240, 255.
+The effectiveness scoring helps you quickly identify which rules are best at revealing patterns in your specific encrypted data. Rules that cause larger changes in IoC, Chi-square, and entropy are more likely to be revealing structural weaknesses in the encryption.
