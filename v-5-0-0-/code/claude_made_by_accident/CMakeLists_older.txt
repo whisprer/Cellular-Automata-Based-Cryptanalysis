@@ -1,0 +1,54 @@
+cmake_minimum_required(VERSION 3.20)
+project(CACA VERSION 1.0 LANGUAGES CXX)
+
+# Set C++ standard
+set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+# Find required packages
+find_package(argparse REQUIRED)
+
+# Add source files
+set(SOURCES
+    src/main.cpp
+    src/core/error_handling.cpp
+    src/tests/nist_tests.cpp
+)
+
+# Create main executable
+add_executable(caca_app ${SOURCES})
+
+# Include directories
+target_include_directories(caca_app PRIVATE 
+    ${CMAKE_SOURCE_DIR}/include
+)
+
+# Link libraries
+target_link_libraries(caca_app PRIVATE 
+    argparse::argparse
+    # Add other required libraries here
+)
+
+# Optional: Enable SIMD support
+option(ENABLE_SIMD "Enable SIMD optimizations" ON)
+if(ENABLE_SIMD)
+    # Add SIMD compiler flags
+    if(MSVC)
+        target_compile_options(caca_app PRIVATE /arch:AVX2)
+    else()
+        target_compile_options(caca_app PRIVATE -mavx2 -mavx512f)
+    endif()
+endif()
+
+# Optional: Enable OpenMP for parallel processing
+find_package(OpenMP)
+if(OpenMP_CXX_FOUND)
+    target_link_libraries(caca_app PRIVATE OpenMP::OpenMP_CXX)
+endif()
+
+# Install
+install(TARGETS caca_app DESTINATION bin)
+
+# Testing
+enable_testing()
+add_subdirectory(tests)

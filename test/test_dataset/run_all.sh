@@ -37,7 +37,7 @@ for file in *.bin; do
     file_count=$((file_count + 1))
     echo -e "${BLUE}[$file_count/$total_files] Processing: $file${NC}"
     
-    # Run CACA with 4 iterations (change as needed)
+    # Run CACA with autodetected thread count
     ./caca_fast -f "$file" -v
     
     echo "---------------------------------------"
