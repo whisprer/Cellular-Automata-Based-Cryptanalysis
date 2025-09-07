@@ -1,0 +1,50 @@
+# For CACA, this workflow scans C++ code and GitHub Actions for security issues.
+# Commit to your repository to enable scanning; adjust languages or build logic as needed.
+#
+name: "CodeQL Advanced"
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+  schedule:
+    - cron: '30 0 * * 3'
+
+jobs:
+  analyze:
+    name: Analyze (${{ matrix.language }})
+    runs-on: ubuntu-latest
+    permissions:
+      security-events: write
+      packages: read
+      actions: read
+      contents: read
+
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+        - language: "c-cpp"
+          build-mode: autobuild
+        - language: "actions"
+          build-mode: none
+        # Focus on C++ for CACA; 'actions' covers workflow security.
+        # Remove other languages unless added later.
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Initialize CodeQL
+      uses: github/codeql-action/init@v3
+      with:
+        languages: ${{ matrix.language }}
+        build-mode: ${{ matrix.build-mode }}
+        # Add custom queries for cryptanalysis security (e.g., buffer overflows, memory issues).
+        queries: +security-and-quality
+
+    - name: Perform CodeQL Analysis
+      uses: github/codeql-action/analyze@v3
+      with:
+        category: "/language:${{matrix.language}}"
