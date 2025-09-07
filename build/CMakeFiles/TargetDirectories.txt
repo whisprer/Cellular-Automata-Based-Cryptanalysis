@@ -1,4 +1,0 @@
-C:/Users/phine/Documents/GitHub/caca/build/CMakeFiles/nist_sts.dir
-C:/Users/phine/Documents/GitHub/caca/build/CMakeFiles/nist_sts_app.dir
-C:/Users/phine/Documents/GitHub/caca/build/CMakeFiles/ALL_BUILD.dir
-C:/Users/phine/Documents/GitHub/caca/build/CMakeFiles/ZERO_CHECK.dir
