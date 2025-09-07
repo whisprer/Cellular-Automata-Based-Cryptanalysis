@@ -1,0 +1,69 @@
+cmake_minimum_required(VERSION 3.20)
+project(CACA VERSION 1.0
+    DESCRIPTION "Cellular Automata CryptAnalysis"
+    LANGUAGES CXX)
+
+# Set C++ standard
+set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+# Add compiler-specific optimizations
+if(CMAKE_CXX_COMPILER_ID MATCHES "Clang|GNU")
+    add_compile_options(
+        -march=native  # Optimize for current CPU architecture
+        -O3            # Maximum optimization
+        -ffast-math    # Aggressive floating-point optimizations
+    )
+elseif(MSVC)
+    add_compile_options(
+        /arch:AVX2     # Enable AVX2 instructions
+        /O2            # Full optimization
+    )
+endif()
+
+# Find required packages
+find_package(argparse REQUIRED)
+
+# Add main executable
+add_executable(caca_app 
+    src/main.cpp
+    src/core/error_handling.cpp
+    src/tests/nist_tests.cpp
+)
+
+# Link libraries
+target_link_libraries(caca_app 
+    PRIVATE 
+    argparse::argparse
+)
+
+# Include directories
+target_include_directories(caca_app 
+    PRIVATE 
+    ${CMAKE_SOURCE_DIR}/include
+)
+
+# Optional: Enable SIMD support
+option(ENABLE_SIMD "Enable SIMD optimizations" ON)
+if(ENABLE_SIMD)
+    target_compile_definitions(caca_app PRIVATE USE_SIMD)
+    
+    # AVX2 support
+    if(CMAKE_CXX_COMPILER_ID MATCHES "Clang|GNU")
+        target_compile_options(caca_app PRIVATE -mavx2)
+    elseif(MSVC)
+        target_compile_options(caca_app PRIVATE /arch:AVX2)
+    endif()
+endif()
+
+# Testing
+enable_testing()
+add_subdirectory(tests)
+
+# Installation
+install(TARGETS caca_app
+    RUNTIME DESTINATION bin
+)
+
+# Packaging
+include(CPack)

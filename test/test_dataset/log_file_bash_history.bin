@@ -1,0 +1,500 @@
+  cmBreakCommand \
+  cmBuildCommand \
+  cmBuildDatabase \
+  cmCMakeLanguageCommand \
+  cmCMakeMinimumRequired \
+  cmList \
+  cmCMakePath \
+  cmCMakePathCommand \
+  cmCMakePolicyCommand \
+  cmCPackPropertiesGenerator \
+  cmCacheManager \
+  cmCommand \
+  cmCommandArgumentParserHelper \
+  cmCommands \
+  cmCommonTargetGenerator \
+  cmComputeComponentGraph \
+  cmComputeLinkDepends \
+  cmComputeLinkInformation \
+  cmComputeTargetDepends \
+  cmConsoleBuf \
+  cmConditionEvaluator \
+  cmConfigureFileCommand \
+  cmContinueCommand \
+  cmCoreTryCompile \
+  cmCreateTestSourceList \
+  cmCryptoHash \
+  cmCustomCommand \
+  cmCustomCommandGenerator \
+  cmCustomCommandLines \
+  cmCxxModuleMapper \
+  cmCxxModuleUsageEffects \
+  cmDefinePropertyCommand \
+  cmDefinitions \
+  cmDocumentationFormatter \
+  cmELF \
+  cmEnableLanguageCommand \
+  cmEnableTestingCommand \
+  cmEvaluatedTargetProperty \
+  cmExecProgramCommand \
+  cmExecuteProcessCommand \
+  cmExpandedCommandArgument \
+  cmExperimental \
+  cmExportBuildCMakeConfigGenerator \
+  cmExportBuildFileGenerator \
+  cmExportCMakeConfigGenerator \
+  cmExportFileGenerator \
+  cmExportInstallCMakeConfigGenerator \
+  cmExportInstallFileGenerator \
+  cmExportSet \
+  cmExportTryCompileFileGenerator \
+  cmExprParserHelper \
+  cmExternalMakefileProjectGenerator \
+  cmFileCommand \
+  cmFileCommand_ReadMacho \
+  cmFileCopier \
+  cmFileInstaller \
+  cmFileSet \
+  cmFileTime \
+  cmFileTimeCache \
+  cmFileTimes \
+  cmFindBase \
+  cmFindCommon \
+  cmFindFileCommand \
+  cmFindLibraryCommand \
+  cmFindPackageCommand \
+  cmFindPackageStack \
+  cmFindPathCommand \
+  cmFindProgramCommand \
+  cmForEachCommand \
+  cmFunctionBlocker \
+  cmFunctionCommand \
+  cmFSPermissions \
+  cmGeneratedFileStream \
+  cmGeneratorExpression \
+  cmGeneratorExpressionContext \
+  cmGeneratorExpressionDAGChecker \
+  cmGeneratorExpressionEvaluationFile \
+  cmGeneratorExpressionEvaluator \
+  cmGeneratorExpressionLexer \
+  cmGeneratorExpressionNode \
+  cmGeneratorExpressionParser \
+  cmGeneratorTarget \
+  cmGeneratorTarget_CompatibleInterface \
+  cmGeneratorTarget_IncludeDirectories \
+  cmGeneratorTarget_Link \
+  cmGeneratorTarget_LinkDirectories \
+  cmGeneratorTarget_Options \
+  cmGeneratorTarget_Sources \
+  cmGeneratorTarget_TargetPropertyEntry \
+  cmGeneratorTarget_TransitiveProperty \
+  cmGetCMakePropertyCommand \
+  cmGetDirectoryPropertyCommand \
+  cmGetFilenameComponentCommand \
+  cmGetPipes \
+  cmGetPropertyCommand \
+  cmGetSourceFilePropertyCommand \
+  cmGetTargetPropertyCommand \
+  cmGetTestPropertyCommand \
+  cmGlobalCommonGenerator \
+  cmGlobalGenerator \
+  cmGlobVerificationManager \
+  cmHexFileConverter \
+  cmIfCommand \
+  cmImportedCxxModuleInfo \
+  cmIncludeCommand \
+  cmIncludeGuardCommand \
+  cmIncludeDirectoryCommand \
+  cmIncludeRegularExpressionCommand \
+  cmInstallCMakeConfigExportGenerator \
+  cmInstallCommand \
+  cmInstallCommandArguments \
+  cmInstallCxxModuleBmiGenerator \
+  cmInstallDirectoryGenerator \
+  cmInstallExportGenerator \
+  cmInstallFileSetGenerator \
+  cmInstallFilesCommand \
+  cmInstallFilesGenerator \
+  cmInstallGenerator \
+  cmInstallGetRuntimeDependenciesGenerator \
+  cmInstallImportedRuntimeArtifactsGenerator \
+  cmInstallRuntimeDependencySet \
+  cmInstallRuntimeDependencySetGenerator \
+  cmInstallScriptGenerator \
+  cmInstallSubdirectoryGenerator \
+  cmInstallTargetGenerator \
+  cmInstallTargetsCommand \
+  cmInstalledFile \
+  cmJSONHelpers \
+  cmJSONState \
+  cmLDConfigLDConfigTool \
+  cmLDConfigTool \
+  cmLinkDirectoriesCommand \
+  cmLinkItem \
+  cmLinkItemGraphVisitor \
+  cmLinkLineComputer \
+  cmLinkLineDeviceComputer \
+  cmListCommand \
+  cmListFileCache \
+  cmLocalCommonGenerator \
+  cmLocalGenerator \
+  cmMSVC60LinkLineComputer \
+  cmMacroCommand \
+  cmMakeDirectoryCommand \
+  cmMakefile \
+  cmMarkAsAdvancedCommand \
+  cmMathCommand \
+  cmMessageCommand \
+  cmMessenger \
+  cmNewLineStyle \
+  cmOSXBundleGenerator \
+  cmOptionCommand \
+  cmOrderDirectories \
+  cmOutputConverter \
+  cmParseArgumentsCommand \
+  cmPathLabel \
+  cmPolicies \
+  cmProcessOutput \
+  cmProjectCommand \
+  cmValue \
+  cmPropertyDefinition \
+  cmPropertyMap \
+  cmGccDepfileLexerHelper \
+  cmGccDepfileReader \
+  cmReturnCommand \
+  cmPlaceholderExpander \
+  cmPlistParser \
+  cmRulePlaceholderExpander \
+  cmRuntimeDependencyArchive \
+  cmScriptGenerator \
+  cmSearchPath \
+  cmSeparateArgumentsCommand \
+  cmSetCommand \
+  cmSetDirectoryPropertiesCommand \
+  cmSetPropertyCommand \
+  cmSetSourceFilesPropertiesCommand \
+  cmSetTargetPropertiesCommand \
+  cmSetTestsPropertiesCommand \
+  cmSiteNameCommand \
+  cmSourceFile \
+  cmSourceFileLocation \
+  cmStandardLevelResolver \
+  cmState \
+  cmStateDirectory \
+  cmStateSnapshot \
+  cmString \
+  cmStringAlgorithms \
+  cmStringReplaceHelper \
+  cmStringCommand \
+  cmSubcommandTable \
+  cmSubdirCommand \
+  cmSystemTools \
+  cmTarget \
+  cmTargetCompileDefinitionsCommand \
+  cmTargetCompileFeaturesCommand \
+  cmTargetCompileOptionsCommand \
+  cmTargetIncludeDirectoriesCommand \
+  cmTargetLinkLibrariesCommand \
+  cmTargetLinkOptionsCommand \
+  cmTargetPrecompileHeadersCommand \
+  cmTargetPropCommandBase \
+  cmTargetPropertyComputer \
+  cmTargetSourcesCommand \
+  cmTargetTraceDependencies \
+  cmTest \
+  cmTestGenerator \
+  cmTimestamp \
+  cmTransformDepfile \
+  cmTryCompileCommand \
+  cmTryRunCommand \
+  cmUnsetCommand \
+  cmUVHandlePtr \
+  cmUVProcessChain \
+  cmVersion \
+  cmWhileCommand \
+  cmWindowsRegistry \
+  cmWorkingDirectory \
+  cmXcFramework \
+  cmake  \
+  cmakemain \
+  cmcmd  \
+  cm_fileno \
+"
+if ${cmake_system_darwin}; then   CMAKE_CXX_SOURCES="${CMAKE_CXX_SOURCES}\
+    cmMachO \
+  "; fi
+if ${cmake_system_mingw}; then   CMAKE_CXX_SOURCES="${CMAKE_CXX_SOURCES}\
+    cmGlobalMSYSMakefileGenerator \
+    cmGlobalMinGWMakefileGenerator \
+    cmVSSetupHelper \
+  "; fi
+CMAKE_STD_CXX_HEADERS="\
+  filesystem \
+  memory \
+  optional \
+  shared_mutex \
+  string_view \
+  utility \
+"
+CMAKE_STD_CXX_SOURCES="\
+  fs_path \
+  string_view \
+"
+LexerParser_CXX_SOURCES="\
+  cmCommandArgumentLexer \
+  cmCommandArgumentParser \
+  cmExprLexer \
+  cmExprParser \
+  cmGccDepfileLexer \
+"
+LexerParser_C_SOURCES="\
+  cmListFileLexer \
+"
+if ${cmake_system_mingw}; then   KWSYS_C_SOURCES="\
+    EncodingC \
+    ProcessWin32 \
+    String \
+    System \
+    Terminal"; else   KWSYS_C_SOURCES="\
+    EncodingC \
+    ProcessUNIX \
+    String \
+    System \
+    Terminal"; fi
+KWSYS_CXX_SOURCES="\
+  Directory \
+  EncodingCXX \
+  FStream \
+  Glob \
+  RegularExpression \
+  Status \
+  SystemTools"
+KWSYS_FILES="\
+  Directory.hxx \
+  Encoding.h \
+  Encoding.hxx \
+  FStream.hxx \
+  Glob.hxx \
+  Process.h \
+  RegularExpression.hxx \
+  Status.hxx \
+  String.h \
+  System.h \
+  SystemTools.hxx \
+  Terminal.h"
+LIBRHASH_C_SOURCES="\
+  librhash/algorithms.c \
+  librhash/byte_order.c \
+  librhash/hex.c \
+  librhash/md5.c \
+  librhash/rhash.c \
+  librhash/sha1.c \
+  librhash/sha256.c \
+  librhash/sha3.c \
+  librhash/sha512.c \
+  librhash/util.c \
+  "
+JSONCPP_CXX_SOURCES="\
+  src/lib_json/json_reader.cpp \
+  src/lib_json/json_value.cpp \
+  src/lib_json/json_writer.cpp \
+  "
+if ${cmake_system_mingw}; then   LIBUV_C_SOURCES="\
+    src/fs-poll.c \
+    src/idna.c
+    src/inet.c \
+    src/threadpool.c \
+    src/strscpy.c \
+    src/strtok.c \
+    src/timer.c \
+    src/uv-common.c \
+    src/win/async.c \
+    src/win/core.c \
+    src/win/detect-wakeup.c \
+    src/win/dl.c \
+    src/win/error.c \
+    src/win/fs-event.c \
+    src/win/fs.c \
+    src/win/getaddrinfo.c \
+    src/win/getnameinfo.c \
+    src/win/handle.c \
+    src/win/loop-watcher.c \
+    src/win/pipe.c \
+    src/win/poll.c \
+    src/win/process-stdio.c \
+    src/win/process.c \
+    src/win/signal.c \
+    src/win/stream.c \
+    src/win/tcp.c \
+    src/win/thread.c \
+    src/win/tty.c \
+    src/win/udp.c \
+    src/win/util.c \
+    src/win/winapi.c \
+    src/win/winsock.c \
+    "; else   LIBUV_C_SOURCES="\
+    src/strscpy.c \
+    src/strtok.c \
+    src/timer.c \
+    src/uv-common.c \
+    src/unix/cmake-bootstrap.c \
+    src/unix/core.c \
+    src/unix/fs.c \
+    src/unix/loop.c \
+    src/unix/loop-watcher.c \
+    src/unix/no-fsevents.c \
+    src/unix/pipe.c \
+    src/unix/poll.c \
+    src/unix/posix-hrtime.c \
+    src/unix/posix-poll.c \
+    src/unix/process.c \
+    src/unix/signal.c \
+    src/unix/stream.c \
+    src/unix/tcp.c \
+    src/unix/tty.c \
+    "; fi
+# Display CMake bootstrap usage
+cmake_usage() { echo '
+Usage: '"$0"' [<options>...] [-- <cmake-options>...]
+Options: [defaults in brackets after descriptions]
+Configuration:
+  --help                  print this message
+  --version               only print version information
+  --verbose               display more information
+  --parallel=n            bootstrap cmake in parallel, where n is
+                          number of nodes [1]
+  --generator=<generator> generator to use (MSYS Makefiles, Unix Makefiles,
+                          or Ninja)
+  --enable-ccache         Enable ccache when building cmake
+  --init=FILE             load FILE as script to populate cache
+  --system-libs           use all system-installed third-party libraries
+                          (for use only by package maintainers)
+  --no-system-libs        use all cmake-provided third-party libraries
+                          (default)
+  --system-cppdap         use system-installed cppdap library
+  --no-system-cppdap      use cmake-provided cppdap library (default)
+  --system-curl           use system-installed curl library (default on macOS)
+  --no-system-curl        use cmake-provided curl library (default elsewhere)
+  --system-expat          use system-installed expat library
+  --no-system-expat       use cmake-provided expat library (default)
+  --system-jsoncpp        use system-installed jsoncpp library
+  --no-system-jsoncpp     use cmake-provided jsoncpp library (default)
+  --system-zlib           use system-installed zlib library
+  --no-system-zlib        use cmake-provided zlib library (default)
+  --system-bzip2          use system-installed bzip2 library
+  --no-system-bzip2       use cmake-provided bzip2 library (default)
+  --system-liblzma        use system-installed liblzma library
+  --no-system-liblzma     use cmake-provided liblzma library (default)
+  --system-nghttp2        use system-installed nghttp2 library
+  --no-system-nghttp2     use cmake-provided nghttp2 library (default)
+  --system-zstd           use system-installed zstd library
+  --no-system-zstd        use cmake-provided zstd library (default)
+  --system-libarchive     use system-installed libarchive library
+  --no-system-libarchive  use cmake-provided libarchive library (default)
+  --system-librhash       use system-installed librhash library
+  --no-system-librhash    use cmake-provided librhash library (default)
+  --system-libuv          use system-installed libuv library
+  --no-system-libuv       use cmake-provided libuv library (default)
+
+  --bootstrap-system-libuv use system-installed libuv library for bootstrap
+  --bootstrap-system-jsoncpp use system-installed jsoncpp library for bootstrap
+  --bootstrap-system-librhash use system-installed librhash library for bootstrap
+
+  --qt-gui                build the Qt-based GUI (requires Qt >= 4.2)
+  --no-qt-gui             do not build the Qt-based GUI (default)
+  --qt-qmake=<qmake>      use <qmake> as the qmake executable to find Qt
+
+  --debugger              enable debugger support (default if supported)
+  --no-debugger           disable debugger support
+
+  --sphinx-info           build Info manual with Sphinx
+  --sphinx-man            build man pages with Sphinx
+  --sphinx-html           build html help with Sphinx
+  --sphinx-qthelp         build qch help with Sphinx
+  --sphinx-latexpdf       build PDF with Sphinx using LaTeX
+  --sphinx-build=<sb>     use <sb> as the sphinx-build executable
+  --sphinx-flags=<flags>  pass <flags> to sphinx-build executable
+
+Directory and file names:
+  --prefix=PREFIX         install files in tree rooted at PREFIX
+                          ['"${cmake_default_prefix}"']
+  --bindir=DIR            install binaries in PREFIX/DIR
+                          ['"${cmake_bin_dir_default}"']
+  --datadir=DIR           install data files in PREFIX/DIR
+                          ['"${cmake_data_dir_default}"']
+  --docdir=DIR            install documentation files in PREFIX/DIR
+                          ['"${cmake_doc_dir_default}"']
+  --mandir=DIR            install man pages files in PREFIX/DIR/manN
+                          ['"${cmake_man_dir_default}"']
+  --xdgdatadir=DIR        install XDG specific files in PREFIX/DIR
+                          ['"${cmake_xdgdata_dir_default}"']
+';   exit 10; }
+# Display CMake bootstrap usage
+cmake_version_display() {   echo "CMake ${cmake_version}, ${cmake_copyright}"; }
+# Display CMake bootstrap error, display the log file and exit
+cmake_error() {   res=$1;   shift 1;   echo "---------------------------------------------";   echo "Error when bootstrapping CMake:";   echo "$*";   echo "---------------------------------------------";   if test -f cmake_bootstrap.log; then     echo "Log of errors: `pwd`/cmake_bootstrap.log"
+    echo "---------------------------------------------";   fi;   exit ${res}; }
+cmake_generate_file_tmp () {   OUTFILE="$1";   TMPFILE="$2";   if "${_diff}" "$TMPFILE" "$OUTFILE" > /dev/null 2> /dev/null ; then     rm -f "$TMPFILE";   else     mv -f "$TMPFILE" "$OUTFILE";   fi; }
+cmake_generate_file () {   OUTFILE="$1";   CONTENT="$2";   echo "$CONTENT" > "$OUTFILE.tmp";   cmake_generate_file_tmp "$OUTFILE" "$OUTFILE.tmp"; }
+# Replace KWSYS_NAMESPACE with cmsys
+cmake_replace_string () {   INFILE="$1";   OUTFILE="$2";   SEARCHFOR="$3";   REPLACEWITH="$4";   if test -f "${INFILE}" || ${cmake_system_openvms}; then     sed "s/\@${SEARCHFOR}\@/${REPLACEWITH}/g" "${INFILE}" > "${OUTFILE}${_tmp}";     if test -f "${OUTFILE}${_tmp}"; then       if "${_diff}" "${OUTFILE}" "${OUTFILE}${_tmp}" > /dev/null 2> /dev/null ; then
+        rm -f "${OUTFILE}${_tmp}";       else         mv -f "${OUTFILE}${_tmp}" "${OUTFILE}";       fi;     fi;   else     cmake_error 1 "Cannot find file ${INFILE}";   fi; }
+cmake_kwsys_config_replace_string () {   INFILE="$1";   OUTFILE="$2";   shift 2;   APPEND="$*";   if test -f "${INFILE}" || ${cmake_system_openvms}; then     echo "${APPEND}" > "${OUTFILE}${_tmp}";     sed "/./ {s/\@KWSYS_NAMESPACE\@/cmsys/g;
+              s/@KWSYS_BUILD_SHARED@/${KWSYS_BUILD_SHARED}/g;
+              s/@KWSYS_LFS_AVAILABLE@/${KWSYS_LFS_AVAILABLE}/g;
+              s/@KWSYS_LFS_REQUESTED@/${KWSYS_LFS_REQUESTED}/g;
+              s/@KWSYS_NAME_IS_KWSYS@/${KWSYS_NAME_IS_KWSYS}/g;
+              s/@KWSYS_STL_HAS_WSTRING@/${KWSYS_STL_HAS_WSTRING}/g;
+              s/@KWSYS_CXX_HAS_EXT_STDIO_FILEBUF_H@/${KWSYS_CXX_HAS_EXT_STDIO_FILEBUF_H}/g;
+              s/@KWSYS_SYSTEMTOOLS_USE_TRANSLATION_MAP@/${KWSYS_SYSTEMTOOLS_USE_TRANSLATION_MAP}/g;
+             }" "${INFILE}" >> "${OUTFILE}${_tmp}";     if test -f "${OUTFILE}${_tmp}"; then       if "${_diff}" "${OUTFILE}" "${OUTFILE}${_tmp}" > /dev/null 2> /dev/null ; then
+        rm -f "${OUTFILE}${_tmp}";       else         mv -f "${OUTFILE}${_tmp}" "${OUTFILE}";       fi;     fi;   else     cmake_error 2 "Cannot find file ${INFILE}";   fi; }
+# Write string into a file
+cmake_report () {   FILE=$1;   shift;   echo "$*" >> ${FILE}; }
+# Escape spaces in strings for artifacts
+cmake_escape_artifact () {   if test "${cmake_bootstrap_generator}" = "Ninja"; then     echo $1 | sed "s/ /$ /g";   else     echo $1 | sed "s/ /\\\\ /g";   fi; }
+# Escape spaces in strings for shell
+cmake_escape_shell () {   echo $1 | sed "s/ /\\\\ /g"; }
+# Encode object file names.
+cmake_obj () {   echo $1 | sed 's/\//-/g' | sed 's/$/\.o/'; }
+# Strip prefix from argument
+cmake_arg () {   echo "$1" | sed "s/^${2-[^=]*=}//"; }
+# Write message to the log
+cmake_log () {   echo "$*" >> cmake_bootstrap.log; }
+# Return temp file
+cmake_tmp_file () {   echo "cmake_bootstrap_$$_test"; }
+# Run a compiler test. First argument is compiler, second one are compiler
+# flags, third one is test source file to be compiled
+cmake_try_run () {   COMPILER=$1;   FLAGS=$2;   TESTFILE=$3;   if test ! -f "${TESTFILE}"; then     echo "Test file ${TESTFILE} missing. Please verify your CMake source tree.";     exit 4;   fi;   TMPFILE=`cmake_tmp_file`;   echo "Try: ${COMPILER}";   echo "Line: ${COMPILER} ${FLAGS} ${TESTFILE} -o ${TMPFILE}";   echo "----------  file   -----------------------";   cat "${TESTFILE}";   echo "------------------------------------------";   ${COMPILER} ${FLAGS} "${TESTFILE}" -o "${TMPFILE}";   RES=$?;   if test "${RES}" -ne "0"; then     echo "Test failed to compile";     return 1;   fi;   if test ! -f "${TMPFILE}" && test ! -f "${TMPFILE}.exe"; then     echo "Test failed to produce executable";     return 2;   fi;   ./${TMPFILE};   RES=$?;   rm -f "${TMPFILE}";   if test "${RES}" -ne "0"; then     echo "Test produced non-zero return code";     return 3;   fi;   echo "Test succeeded";   return 0; }
+# Run a make test. First argument is the make interpreter.
+cmake_try_make () {   MAKE_PROC="$1";   MAKE_FLAGS="$2";   echo "Try: ${MAKE_PROC}";   "${MAKE_PROC}" ${MAKE_FLAGS};   RES=$?;   if test "${RES}" -ne "0"; then     echo "${MAKE_PROC} does not work";     return 1;   fi;   if test ! -f "test" && test ! -f "test.exe"; then     echo "${COMPILER} does not produce output";     return 2;   fi;   ./test;   RES=$?;   rm -f "test";   if test "${RES}" -ne "0"; then     echo "${MAKE_PROC} produces strange executable";     return 3;   fi;   echo "${MAKE_PROC} works";   return 0; }
+# Parse arguments
+cmake_verbose=
+cmake_parallel_make=
+cmake_ccache_enabled=
+cmake_prefix_dir="${cmake_default_prefix}"
+bootstrap_system_libuv=
+bootstrap_system_jsoncpp=
+bootstrap_system_librhash=
+while test $# != 0; do
+  case "$1" in   --prefix=*) dir=`cmake_arg "$1"`;               cmake_prefix_dir=`cmake_fix_slashes "$dir"` ;;   --parallel=*) cmake_parallel_make=`cmake_arg "$1"` ;;   --generator=*) cmake_bootstrap_generator=`cmake_arg "$1"` ;;   --bindir=*) cmake_bin_dir=`cmake_arg "$1"` ;;   --datadir=*) cmake_data_dir=`cmake_arg "$1"` ;;   --docdir=*) cmake_doc_dir=`cmake_arg "$1"` ;;   --mandir=*) cmake_man_dir=`cmake_arg "$1"` ;;   --xdgdatadir=*) cmake_xdgdata_dir=`cmake_arg "$1"` ;;   --init=*) cmake_init_file=`cmake_arg "$1"` ;;   --system-libs) cmake_bootstrap_system_libs="${cmake_bootstrap_system_libs} -DCMAKE_USE_SYSTEM_LIBRARIES=1" ;;   --no-system-libs) cmake_bootstrap_system_libs="${cmake_bootstrap_system_libs} -DCMAKE_USE_SYSTEM_LIBRARIES=0" ;;   --system-bzip2|--system-cppdap|--system-curl|--system-expat|--system-jsoncpp|--system-libarchive|--system-librhash|--system-zlib|--system-liblzma|--system-nghttp2|--system-zstd|--system-libuv)     lib=`cmake_arg "$1" "--system-"`;     cmake_bootstrap_system_libs="${cmake_bootstrap_system_libs} -DCMAKE_USE_SYSTEM_LIBRARY_`cmake_toupper $lib`=1" ;;   --no-system-bzip2|--no-system-cppdap|--no-system-curl|--no-system-expat|--no-system-jsoncpp|--no-system-libarchive|--no-system-librhash|--no-system-zlib|--no-system-liblzma|--no-system-nghttp2|--no-system-zstd|--no-system-libuv)     lib=`cmake_arg "$1" "--no-system-"`;     cmake_bootstrap_system_libs="${cmake_bootstrap_system_libs} -DCMAKE_USE_SYSTEM_LIBRARY_`cmake_toupper $lib`=0" ;;   --bootstrap-system-libuv) bootstrap_system_libuv="1" ;;   --bootstrap-system-jsoncpp) bootstrap_system_jsoncpp="1" ;;   --bootstrap-system-librhash) bootstrap_system_librhash="1" ;;   --qt-gui) cmake_bootstrap_qt_gui="1" ;;   --no-qt-gui) cmake_bootstrap_qt_gui="0" ;;   --qt-qmake=*) cmake_bootstrap_qt_qmake=`cmake_arg "$1"` ;;   --debugger) cmake_bootstrap_debugger="1" ;;   --no-debugger) cmake_bootstrap_debugger="0" ;;   --sphinx-info) cmake_sphinx_info="1" ;;   --sphinx-man) cmake_sphinx_man="1" ;;   --sphinx-html) cmake_sphinx_html="1" ;;   --sphinx-qthelp) cmake_sphinx_qthelp="1" ;;   --sphinx-latexpdf) cmake_sphinx_latexpdf="1" ;;   --sphinx-build=*) cmake_sphinx_build=`cmake_arg "$1"` ;;   --sphinx-flags=*) cmake_sphinx_flags=`cmake_arg "$1"` ;;   --help) cmake_usage ;;   --version) cmake_version_display ; exit 2 ;;   --verbose) cmake_verbose=TRUE ;;   --enable-ccache) cmake_ccache_enabled=TRUE ;;   CC=*) CC=`cmake_arg "$1"` ;;   CXX=*) CXX=`cmake_arg "$1"` ;;   CFLAGS=*) CFLAGS=`cmake_arg "$1"` ;;   CXXFLAGS=*) CXXFLAGS=`cmake_arg "$1"` ;;   LDFLAGS=*) LDFLAGS=`cmake_arg "$1"` ;;   --) shift; break ;;   *) die "Unknown option: $1" ;;   esac;   shift; done
+# Make sure the generator is valid
+case "${cmake_bootstrap_generator}" in   'MSYS Makefiles'|'Unix Makefiles'|'Ninja') ;;   *) cmake_error 10 "Invalid generator: ${cmake_bootstrap_generator}"; esac
+# If verbose, display some information about bootstrap
+if test -n "${cmake_verbose}"; then   echo "---------------------------------------------";   echo "Source directory: ${cmake_source_dir}";   echo "Binary directory: ${cmake_binary_dir}";   echo "Prefix directory: ${cmake_prefix_dir}";   echo "System:           ${cmake_system}";   echo "Generator:        ${cmake_bootstrap_generator}";   if test "x${cmake_parallel_make}" != "x"; then     echo "Doing parallel make: ${cmake_parallel_make}";   fi;   echo ""; fi
+echo "---------------------------------------------"
+# Get CMake version
+echo "`cmake_version_display`"
+# Check for in-source build
+cmake_in_source_build=
+if test -f "${cmake_binary_dir}/Source/cmake.cxx" &&      test -f "${cmake_binary_dir}/Source/cmake.h"; then   if test -n "${cmake_verbose}"; then     echo "Warning: This is an in-source build";   fi;   cmake_in_source_build=TRUE; fi
+# If this is not an in-source build, then Bootstrap stuff should not exist.
+if test -z "${cmake_in_source_build}"; then
+  if test -d "${cmake_source_dir}/Bootstrap${_cmk}"; then     cmake_error 10 "Found directory \"${cmake_source_dir}/Bootstrap${_cmk}\".
+Looks like somebody did bootstrap CMake in the source tree, but now you are
+trying to do bootstrap in the binary tree. Please remove Bootstrap${_cmk}
+directory from the source tree.";   fi
+  for cmake_problematic_file in ${CMAKE_PROBLEMATIC_FILES}; do     if test -f "${cmake_source_dir}/${cmake_problematic_file}"; then       cmake_error 10 "Found \"${cmake_source_dir}/${cmake_problematic_file}\".
+Looks like somebody tried to build CMake in the source tree, but now you are
+trying to do bootstrap in the binary tree. Please remove \"${cmake_problematic_file}\"
+from the source tree.";     fi;   done; fi

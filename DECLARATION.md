@@ -1,0 +1,20 @@
+Declaration of Intent and Purpose
+
+Regarding the Open Source Release of Encryption Analysis Software Library
+
+I hereby formally declare and affirm that the software library being developed and released, intended for analyzing encrypted files without performing or facilitating actual decryption, is created solely for purposes beneficial to security, research, education, and public welfare.
+
+The primary objective of this library is to evaluate encrypted files by detecting the presence of encryption, assessing the robustness and quality of encryption implementations, and identifying potential vulnerabilities or flaws in encryption methods. It explicitly refrains from providing capabilities that would directly compromise, decrypt, or otherwise breach encrypted data.
+
+My intentions in releasing this software openly, transparently, and at the earliest feasible opportunity are entirely benign. I am fully committed to promoting knowledge, education, and proactive security awareness in the cryptographic community and beyond. It is my belief that broad and immediate accessibility to tools that highlight potential encryption weaknesses serves the public interest by allowing rapid identification and rectification of vulnerabilities, thereby strengthening overall data security.
+
+I unequivocally oppose and expressly forbid any use of this software library to cause harm, commit illegal acts, invade privacy, or undermine legitimate security practices. The release under an open-source license is intended to encourage collaborative improvements, continuous peer review, and community-driven development. This approach ensures transparency, accountability, and responsible use by the widest possible audience.
+
+Furthermore, I commit myself to actively maintaining and continually improving this software, ensuring it remains aligned with the stated benign objectives. Contributions from the open-source community will be encouraged and welcomed, provided they remain aligned with ethical and legal standards as articulated herein.
+
+In releasing this software library, I call upon users, developers, researchers, and the broader community to utilize it ethically, responsibly, and constructively. Together, we can foster a safer, more secure digital environment through openness, cooperation, and shared knowledge.
+
+Sincerely,
+
+wofl 202503161202 Sun
+

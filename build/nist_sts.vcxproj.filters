@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\phine\Documents\GitHub\caca\src\bitsequence.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\phine\Documents\GitHub\caca\src\ca_analyzer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\phine\Documents\GitHub\caca\src\common.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\phine\Documents\GitHub\caca\src\core_class_structure.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\phine\Documents\GitHub\caca\src\frequency.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\phine\Documents\GitHub\caca\src\generators\bbs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\phine\Documents\GitHub\caca\src\generators\cubic_congruential.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\phine\Documents\GitHub\caca\src\generators\lcg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\phine\Documents\GitHub\caca\src\generators\micali_schnorr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\phine\Documents\GitHub\caca\src\generators\modular_exponentiation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\phine\Documents\GitHub\caca\src\generators\quadratic_congruential.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\phine\Documents\GitHub\caca\src\generators\sha1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\phine\Documents\GitHub\caca\src\generators\xor_generator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\phine\Documents\GitHub\caca\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\phine\Documents\GitHub\caca\src\math_functions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\phine\Documents\GitHub\caca\src\nist_sts.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\phine\Documents\GitHub\caca\src\nist_sts\generator_factory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\phine\Documents\GitHub\caca\src\nist_sts\tests\approximate_entropy_test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\phine\Documents\GitHub\caca\src\nist_sts\tests\block_frequency_test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\phine\Documents\GitHub\caca\src\nist_sts\tests\cumulative_sums_test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\phine\Documents\GitHub\caca\src\nist_sts\tests\dft_test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\phine\Documents\GitHub\caca\src\nist_sts\tests\frequency_test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\phine\Documents\GitHub\caca\src\nist_sts\tests\linear_complexity_test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\phine\Documents\GitHub\caca\src\nist_sts\tests\longest_run_test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\phine\Documents\GitHub\caca\src\nist_sts\tests\non_overlapping_template_test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\phine\Documents\GitHub\caca\src\nist_sts\tests\overlapping_template_test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\phine\Documents\GitHub\caca\src\nist_sts\tests\random_excursions_test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\phine\Documents\GitHub\caca\src\nist_sts\tests\random_excursions_variant_test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\phine\Documents\GitHub\caca\src\nist_sts\tests\rank_test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\phine\Documents\GitHub\caca\src\nist_sts\tests\runs_test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\phine\Documents\GitHub\caca\src\nist_sts\tests\serial_test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\phine\Documents\GitHub\caca\src\nist_sts\tests\universal_test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\phine\Documents\GitHub\caca\src\stat_analyzer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\phine\Documents\GitHub\caca\src\test_suite.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\phine\Documents\GitHub\caca\src\visualization_generator-big.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\phine\Documents\GitHub\caca\src\visualization_generator-med.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\phine\Documents\GitHub\caca\src\visualization_generator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\phine\Documents\GitHub\caca\src\visualization_main-mt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\phine\Documents\GitHub\caca\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{895CBBE7-4855-3E99-99C9-7E324B585A27}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
