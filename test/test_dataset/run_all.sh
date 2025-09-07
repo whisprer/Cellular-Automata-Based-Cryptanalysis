@@ -38,7 +38,7 @@ for file in *.bin; do
     echo -e "${BLUE}[$file_count/$total_files] Processing: $file${NC}"
     
     # Run CACA with 4 iterations (change as needed)
-    ./caca -f "$file" -i 4
+    ./caca_fast -f "$file" -v
     
     echo "---------------------------------------"
     echo
@@ -47,9 +47,9 @@ done
 echo -e "${GREEN}Processing complete! Analyzed $file_count files.${NC}"
 
 # Optional: Create a summary if output files were generated
-if ls caca_results_*.bin >/dev/null 2>&1; then
-    echo -e "${YELLOW}Output files generated:${NC}"
-    ls -lh caca_results_*.bin
+    if ls caca_results_*.bin >/dev/null 2>&1; then
+        echo -e "${YELLOW}Output files generated:${NC}"
+        ls -lh caca_results_*.bin
     
     fi
 done

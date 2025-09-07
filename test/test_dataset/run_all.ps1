@@ -5,6 +5,6 @@
 # Loop over all .bin files in the current folder:
 foreach ($file in Get-ChildItem -Path . -Filter *.bin) {
     Write-Host "Processing file:" $file.Name
-    ./caca -f $file.Name -i 4
+    ./caca_fast -f $file.Name -v
     Write-Host "---------------------------------------"
 }
