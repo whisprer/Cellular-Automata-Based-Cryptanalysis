@@ -1,3 +1,7 @@
+
+<p align="center">
+  <img src=/asset/"caca_banner.png" width="850" alt="caca Banner"
+
 CACA - Cellular Automata-based Cryptanalysis
 Overview
 CACA (Cellular Automata-based Cryptanalysis) is a novel cryptographic analysis tool that employs cellular automata (CA) techniques to detect patterns and vulnerabilities in encrypted data without requiring decryption. This project adapts methods from image denoising research to analyze the structural integrity of various encryption implementations.
