@@ -1,6 +1,6 @@
 
 <p align="center">
-  <a href="https://github.com/whisprer/assets/caca">
+  <a href="https://github.com/whisprer/cellular-automata-based-cryptanalysis/assets/caca">
     <img src=asset/"caca_banner.png" width="850" alt="CACA Banner"
   </a>
 </p>
