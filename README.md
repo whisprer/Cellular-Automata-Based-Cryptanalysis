@@ -1,7 +1,7 @@
 
 <p align="center">
   <a href="https://github.com/whisprer/caca">
-    <img src=asset/"caca_banner.png" width="850" alt="caca Banner"
+    <img src=asset/"caca_banner.png" width="850" alt="CACA Banner"
   </a>
 </p>
 
