@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="caca_banner.png" width="850" alt="caca Banner"
+  <img src=/asset/"caca_banner.png" width="850" alt="caca Banner"
 
 CACA - Cellular Automata-based Cryptanalysis
 Overview
